@@ -2,7 +2,7 @@ This is a Fearless trial project.
 You can visit it here [https://purple-cow.vercel.app/](https://purple-cow.vercel.app/).
 
 This app is deployed with Vercel. 
-[https://vercel.com/docs/platform/deployments](Deploy this app with Vercel.)
+[Deploy this app with Vercel](https://vercel.com/docs/platform/deployments)
 
 
 ## Run Locally
