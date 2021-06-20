@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const DisplayCount = ({ count }) => {
   return (
@@ -11,10 +11,17 @@ const DisplayCount = ({ count }) => {
           padding: 1rem;
         }
         .display__count {
-          font-family: 'Montserrat Alternates', sans-serif;
+          font-family: "Montserrat Alternates", sans-serif;
           font-weight: 700;
           font-size: 10rem;
           color: #5c3977;
+          text-shadow: 1px 1px #ffffff, 
+                2px 2px #ffffff, 
+                3px 3px #ffffff,
+                4px 4px #ffffff,
+                5px 5px #ffffff,
+                6px 6px #ffffff,
+                7px 7px #ffffff;
         }
       `}</style>
     </>
