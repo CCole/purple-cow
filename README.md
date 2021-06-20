@@ -1,6 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Fearless trial project. 
+You can visit it here [https://purple-cow.vercel.app/](https://purple-cow.vercel.app/).
 
-## Getting Started
+
+
+## Run Locally
 
 First, run the development server:
 
@@ -9,18 +12,25 @@ npm run dev
 # or
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 To change the port number 
 ```bash
 npm run dev -- -p 3005
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Deploy on Vercel
+## Build 
+To build run the following command:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx next build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Future Updates
+- Figure out how to set up prettier configuration so that it does not conflict with vercel deployemnt
+  - Prettier is important because it scans files for style issues and automatically reformats code for consistency. It's nice because it's a one time cost and an help catch errors.
+
+- Add more informative error messages for improved user experience
+- Implement a responsive design for a delightful experience across devices
+
