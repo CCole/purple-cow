@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const StateWindow = ({ state }) => {
   return (
@@ -32,8 +32,11 @@ const StateWindow = ({ state }) => {
       <style jsx>{`
         .state-window {
           height: 150px;
-          overflow: scroll;
-          font-family: 'Montserrat', sans-serif;
+          border-color: #ffffff;
+          border-style: dashed solid;
+          border-width: .95rem;
+          overflow-y: scroll;
+          font-family: "Montserrat", sans-serif;
         }
         .header {
           font-weight: 700;
