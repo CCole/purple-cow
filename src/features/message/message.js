@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Message = ({ msg }) => {
   return (
     <>
@@ -14,5 +16,7 @@ const Message = ({ msg }) => {
     </>
   );
 };
-
+Message.prototype = {
+  msg: PropTypes.string,
+};
 export default Message;

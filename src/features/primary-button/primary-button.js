@@ -1,4 +1,4 @@
-import { func } from 'prop-types';
+import PropTypes from 'prop-types';
 
 const PrimaryButton = ({ action }) => {
   return (
@@ -28,7 +28,7 @@ const PrimaryButton = ({ action }) => {
     </>
   );
 };
-PrimaryButton.prototype = {
-  action: func,
+PrimaryButton.propTypes = {
+  action: PropTypes.func,
 };
 export default PrimaryButton;

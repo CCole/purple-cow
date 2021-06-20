@@ -1,4 +1,4 @@
-import { number } from 'prop-types';
+import PropTypes from 'prop-types';
 
 const DisplayCount = ({ count }) => {
   return (
@@ -21,7 +21,7 @@ const DisplayCount = ({ count }) => {
   );
 };
 DisplayCount.propTypes = {
-  count: number,
+  count: PropTypes.number,
 };
 
 export default DisplayCount;

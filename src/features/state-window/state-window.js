@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const StateWindow = ({ state }) => {
   return (
     <>
@@ -43,5 +45,8 @@ const StateWindow = ({ state }) => {
       `}</style>
     </>
   );
+};
+StateWindow.propTypes = {
+  state: PropTypes.object,
 };
 export default StateWindow;

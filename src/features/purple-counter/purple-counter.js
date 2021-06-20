@@ -23,12 +23,10 @@ const PurpleCounter = () => {
   const resetTrigger = () => setRequestTrigger(false);
 
   useEffect(() => {
-    console.log('retrieve count effect');
     getCount(dispatch, retrieveCount, setIsLoading, setMsg);
   }, []);
 
   useEffect(() => {
-    console.log('increment effect');
     if (requestTrigger === true) {
       hitCount(dispatch, increment, setIsLoading, setMsg);
     }
@@ -47,7 +45,6 @@ const PurpleCounter = () => {
           <Message msg={msg} />
           <StateWindow state={state} />
           <DisplayCount count={getRecentCount(state)} />
-          {console.log('state: ', state)}
           <PrimaryButton
             action={() => {
               hitRequest();
