@@ -28,6 +28,10 @@ To build run the following command:
 ```bash
 npx next build
 ```
+## Run Unit Tests
+```bash
+npm test
+```
 
 ## Future Updates
 - Figure out how to set up prettier configuration so that it does not conflict with vercel deployemnt
